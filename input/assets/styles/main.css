@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Sitka Display';
+    src: url('../fonts/SitkaDisplay.woff2') format('woff2'),
+        url('../fonts/SitkaDisplay.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans Regular';
+    src: url('../fonts/subset-WorkSans-Regular.woff2') format('woff2'),
+        url('../fonts/subset-WorkSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans Light';
+    src: url('../fonts/subset-WorkSans-Light.woff2') format('woff2'),
+        url('subset-WorkSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans Bold';
+    src: url('../fonts/subset-WorkSans-Bold.woff2') format('woff2'),
+        url('../fonts/subset-WorkSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+ /* Algemeen  */
+
+body {
+    font-family: 'Work Sans Regular';
+}
+
+.max-width {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Sitka Display';
+}
+
+/* nav */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
+
+    & ul {
+        display: flex;
+        gap: 40px;
+    }
+
+    & li {
+        list-style: none;
+    }
+
+    & a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+}
+
+/* footer */
+
+.footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    & a {
+        color: white;
+    }
+}
+
+/* footer top */
+
+.footer--top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 110px;
+    margin-bottom: 78px;
+}
+
+.footer--top div {
+    max-width: 536px;
+    & p {
+        margin-bottom: 20px;
+    }
+}
+
+.logo {
+    font-family: 'Sitka Display';
+    font-size: 2.18rem;
+    margin-bottom: 32px;
+}
+
+.footer--top p {
+    font-family: 'Work Sans Light';
+    opacity: 1;
+
+}
+
+/* footer socials */
+
+.socials {
+    max-width: 8.3125rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    padding: 1px;
+    background-color: white;
+    margin: 62px 0px 35px 0px;
+}
+
+/* footer nav */
+
+.nav-footer li {
+    list-style: none;
+    margin-bottom: 25px;
+    & a {
+        text-decoration: none;
+    }
+}
+
+/* footer bottom */
+
+.footer-bottom {
+    color: #ffffffad;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    & div {
+        display: flex;
+        gap: 30px
+    }
+}

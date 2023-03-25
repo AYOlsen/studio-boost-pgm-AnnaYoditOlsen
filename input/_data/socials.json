@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Facebook",
+        "img": "/images/facebook.svg"
+    },
+    {
+        "name": "Instagram",
+        "img": "/images/instagram.svg"
+    },
+    {
+        "name": "LinkedIn",
+        "img": "/images/linkedin.svg"
+    }
+]

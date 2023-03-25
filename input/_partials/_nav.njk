@@ -1,0 +1,18 @@
+<nav class="nav">
+    <a href="{{ '/' | url }}" class="logo">
+        Studio Boost
+    </a>
+    <ul>
+        {% for nav_item in collections.nav %}
+            <li>
+                <a href="{{ nav_item.page.url }}" >
+                    {% if nav_item.data.nav %}
+                        {{ nav_item.data.nav }}
+                    {% else %}
+                        {{ nav_item.data.title }}
+                    {% endif%}
+                </a>
+            </li>
+        {% endfor%}
+    </ul>
+</nav>
