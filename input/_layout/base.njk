@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/reset.css"/>
     <link rel="stylesheet" href="/styles/main.css"/>
-
+    <link rel="stylesheet" href="/styles/blogProject.css"/>
     <title>{{ title }}</title>
 </head>
 
 <body>
     {% include "../_partials/_nav.njk" %}
+
+    <main>
+        {% block main %}
+            {{ content | safe }}
+        {% endblock main %}
+    </main>
 
     {% include "../_partials/_footer.njk" %}
 </body>

@@ -38,6 +38,7 @@
 
 body {
     font-family: 'Work Sans Regular';
+    font-size: 20px;
 }
 
 .max-width {
@@ -50,14 +51,21 @@ h1, h2, h3, h4, h5 {
 }
 
 /* nav */
+nav {
+    font-family: 'Work Sans Light';
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 40px;
+    z-index: 1;
+    padding-top: 56px;
 
     & ul {
         display: flex;
+        align-items: center;
         gap: 40px;
     }
 
@@ -67,8 +75,13 @@ h1, h2, h3, h4, h5 {
 
     & a {
         text-decoration: none;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
+}
+
+.nav li:last-child {
+    border: 1px hsl(0, 0%, 100%, .5) solid;
+    padding: 16px 32px;
 }
 
 /* footer */
@@ -141,6 +154,8 @@ h1, h2, h3, h4, h5 {
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
+    font-family: 'Work Sans Light';
+
     & div {
         display: flex;
         gap: 30px
