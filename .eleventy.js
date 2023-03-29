@@ -10,7 +10,7 @@ module.exports = (eleventyConfig) => {
       input: "./input/pages/",
       output: "output",
       includes: "../_partials",
-      layouts: "../_layouts",
+      layouts: "../_layout",
       data: "../_data",
     },
   };
