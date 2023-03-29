@@ -1,0 +1,30 @@
+{% extends "./base.njk" %}
+
+{% block main%}
+    <div class="columns-top">
+        <div class="columns__column">
+            {% block topleft %}
+            {% endblock topleft %}
+        </div>
+        <div class="columns__column">
+            {% block topright %}
+            {% endblock topright %}
+        </div>
+    </div>
+        
+    <div class="columns-bottom">
+        <div class="columns__column">
+            {% block bottomleft %}
+            {% endblock bottomleft %}
+        </div>
+        <div class="columns__column">
+            {% block bottomright %}
+            {% endblock bottomright %}
+        </div>
+    </div>
+
+    <div>
+        {% block bottom%}
+        {% endblock bottom%}
+    </div>
+{% endblock main%}
