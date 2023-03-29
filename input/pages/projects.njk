@@ -1,21 +1,11 @@
 ---
-    title: 'Projects'
+    title: "Projects"
     tags: nav
+    description: "Het bureau heeft een passie voor het creëren van unieke en aantrekkelijke ontwerpen die passen bij de visie en missie van hun klanten. Bekijk onze projecten"
 ---
 
-{% extends "../_layout/grid.njk" %}
-{# 
+{% extends "../_layout/photo-list.njk" %}
 
-{% block content %}
-    <p>
-        Het bureau heeft een passie voor het creëren van unieke en aantrekkelijke ontwerpen die passen bij de visie en missie van hun klanten. Bekijk onze projecten.
-    </p>
-{% endblock content %} #}
-
-
-
-    {# {% for item in collections.projects %}
-        
-    {% endfor %} #}
-
-
+{% block styles%}
+    <link rel="stylesheet" href="/styles/projects.css"/>
+{% endblock styles%}

@@ -4,6 +4,7 @@
     tags: projects
     description: "Kinesitherapie Céline Charlier is een algemene kinesitherapiepraktijk met een bijzondere interesse voor bekkenbodemproblematiek, lymfedrainage en perinatale begeleiding."
     image: kine-charlier.png
+    layout: base
 ---
 <h1>
     {{ title }}
