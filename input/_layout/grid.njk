@@ -2,7 +2,7 @@
 
 {% block main%}
     <div class="columns-top">
-        <div class="columns__column">
+        <div class="columns__text">
             {% block topleft %}
             {% endblock topleft %}
         </div>
@@ -17,13 +17,13 @@
             {% block bottomleft %}
             {% endblock bottomleft %}
         </div>
-        <div class="columns__column">
+        <div class="columns__text">
             {% block bottomright %}
             {% endblock bottomright %}
         </div>
     </div>
-
-    <div>
+    
+    <div class="columns__centered">
         {% block bottom%}
         {% endblock bottom%}
     </div>

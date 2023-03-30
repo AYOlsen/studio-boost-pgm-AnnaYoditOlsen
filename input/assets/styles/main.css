@@ -193,3 +193,56 @@ nav {
     margin-top: 150px;
     margin-bottom: 150px;
 }
+
+/* contact pagina */
+.columns-top, .columns-bottom {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.columns-top {
+    align-items: center;
+}
+
+.columns-top .columns__text {
+    padding-left: 81px;
+}
+
+.columns-bottom .columns__text {
+    background-color: hsl(216, 100%, 99%);
+}
+
+.columns-top img {
+    width: 960px;
+    height: 941px;
+}
+
+.columns-bottom  img {
+    width: 960px;
+    height: 755px;
+}
+
+.columns__text {
+    width: 960px;
+    & h1 {
+        font-size: 60px;
+        font-weight: 100;
+        width: 733px;
+    }
+
+    & p {
+        padding: 204px 178px  204px 146px;
+        font-family: 'Work Sans Light';
+    }
+}
+
+
+.columns__centered {
+    width: 812px;
+    margin: 0 auto;
+    padding: 100px 0px;
+    & p {
+        font-family: 'Work Sans Light';
+    }
+}
