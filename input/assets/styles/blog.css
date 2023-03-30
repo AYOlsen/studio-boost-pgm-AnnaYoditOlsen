@@ -1,8 +1,28 @@
+.card {
+    position: relative;
+}
+
 .card_title {
     width: 450px;
+    position: absolute;
+    background-color: hsla(0, 0%, 0%, 0.745);
+    color: white;
+    font-family: 'Work Sans Bold';
+    padding: 20px;
+    bottom: 0px;
 }
 
 .card a {
     color: black;
     text-decoration: none;
+
+    & .card_category {
+        font-size: .875rem;
+        color: hsl(0, 0%, 44%);
+        text-transform: uppercase;
+        background-color: hsl(216, 100%, 99%);
+        padding: 16px;
+        position: absolute;
+        margin: 17px 0px 0px 10px;
+    }
 }
