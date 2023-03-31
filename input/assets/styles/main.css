@@ -75,7 +75,11 @@ nav {
 
     & a {
         text-decoration: none;
-        color: rgb(255, 255, 255);
+        color: inherit;
+    }
+
+    &.nav--light {
+        color: white;
     }
 }
 
@@ -198,8 +202,10 @@ nav {
 /* contact pagina */
 .columns-top, .columns-bottom {
     display: flex;
-    justify-content: space-between;
-    
+}
+
+.columns__column {
+    width: 50%;
 }
 
 .columns-top {
@@ -216,28 +222,27 @@ nav {
 }
 
 .columns-top img {
-    width: auto;
+    width: 100%;
     height: 941px;
 }
 
 .columns-bottom  img {
-    width: auto;
+    width: 100%;
     height: 755px;
 }
 
 .columns__text {
-    width: 960px;
+    width: 50%;
     & h1 {
         font-size: 60px;
         font-weight: 100;
     }
-
-    & .text--bottom {
-        padding: 183px 178px  183px 146px;
-        font-family: 'Work Sans Light';
-    }
 }
 
+.text--bottom {
+    padding: 183px 178px  183px 146px;
+    font-family: 'Work Sans Light';
+}
 
 .columns__centered {
     width: 812px;
