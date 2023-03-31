@@ -175,7 +175,7 @@ nav {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-
+    padding-bottom: 120px;
     & h1 {
         font-size: 50px;
     }
@@ -189,6 +189,7 @@ nav {
 .collage {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 6px;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -231,11 +232,12 @@ nav {
         font-weight: 100;
     }
 
-    & p {
+    & .text--bottom {
         padding: 183px 178px  183px 146px;
         font-family: 'Work Sans Light';
     }
 }
+
 
 .columns__centered {
     width: 812px;

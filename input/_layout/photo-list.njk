@@ -11,7 +11,7 @@
                     <p class="card_category">{{ item.data.category }}</p>
                     <p class="card_title">{{ item.data.title }}</p>
                     {% else %}
-                    <p class="card_category">{{ item.data.category }} - {{ item.data.title }}</p>
+                    <p class="card_title">{{ item.data.category }} - {{ item.data.title }}</p>
                 {% endif %}
                     <img src="../images/{{ [iterator] }}/{{ item.data.image }}" />
                 </a>
