@@ -206,7 +206,8 @@ nav {
 }
 
 .columns-top .columns__text {
-    padding-left: 81px;
+    padding-left: 60px;
+    padding-right: 20px;
 }
 
 .columns-bottom .columns__text {
@@ -214,12 +215,12 @@ nav {
 }
 
 .columns-top img {
-    width: 960px;
+    width: auto;
     height: 941px;
 }
 
 .columns-bottom  img {
-    width: 960px;
+    width: auto;
     height: 755px;
 }
 
@@ -228,15 +229,13 @@ nav {
     & h1 {
         font-size: 60px;
         font-weight: 100;
-        width: 733px;
     }
 
     & p {
-        padding: 204px 178px  204px 146px;
+        padding: 183px 178px  183px 146px;
         font-family: 'Work Sans Light';
     }
 }
-
 
 .columns__centered {
     width: 812px;
