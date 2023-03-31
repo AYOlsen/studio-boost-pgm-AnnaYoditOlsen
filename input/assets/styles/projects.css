@@ -11,3 +11,35 @@
     position: absolute;
     margin: 17px 0px 0px 10px;
 }
+
+.hero {
+    position: relative;
+    background: black;
+    overflow: hidden;
+
+    & img {
+        object-fit: cover;
+        opacity: 0.5;
+        width: 100vw;
+    }
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 140px;
+    left: 204px;
+    color: rgb(255, 255, 255);
+    width: 700px;
+
+    & h1 {
+        font-size: 60px;
+        font-weight: 100;
+    }
+
+    & p {
+        font-size: 24px;
+        &:first-child {
+            text-transform: uppercase;
+        }
+    }
+}

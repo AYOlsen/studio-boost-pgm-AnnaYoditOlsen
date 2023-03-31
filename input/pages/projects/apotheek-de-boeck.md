@@ -4,8 +4,7 @@
     tags: projects
     description: "Voor Apotheek De Boeck heb ik een complete huisstijl ontworpen. Als apotheker heb je niet enkel een logo nodig maar ook grote raamstickers, visitekaartjes, doosjes etc."
     image: apotheek-boeck.png
-    layout: base
+    hero: apotheek-boeck-hero.png
+    layout: full-width
+    iterator: second
 ---
-<h1>
-    {{ title }}
-</h1>

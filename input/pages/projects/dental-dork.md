@@ -4,7 +4,8 @@
     tags: projects
     description: "Voor deze tandartse ontwierp ik een fris logo én een zeer landingspage."
     image: dental-dok.png
-    layout: base
+    hero: dental-dok-hero.png
+    layout: full-width
 ---
 
 <h1>
