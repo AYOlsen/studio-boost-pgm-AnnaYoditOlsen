@@ -4,6 +4,3 @@
     tags: blog
     image: e-commerce-trends.png
 ---
-<h1>
-    {{ title }}
-</h1>

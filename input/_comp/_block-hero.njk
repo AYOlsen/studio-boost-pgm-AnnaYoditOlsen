@@ -1,0 +1,10 @@
+{% macro block(image, text)%}
+    <article>
+        <div>
+            <img src="../../images/{{ image }}"/>
+        </div>
+        <div>
+            <p>{{ text }}</p>
+        </div>
+    </article>
+{% endmacro %}
