@@ -1,33 +1,25 @@
 ---
     title: 'Over'
     tags: nav
+    image: 
+        - ../images/Group-people.png
+        - ../images/ontwerpen.png
 ---
 
 
 {% extends "../_layout/grid.njk" %}
 
-<div class="columns__text">
-    {% block topleft %}
+
+{% block topleft %}
     <h1>Studio Boost is een creatief bureau dat gespecialiseerd is in het ontwerpen en ontwikkelen van websites, webshops en logo’s.</h1>
-    {% endblock topleft %}
-</div>
-<div class="columns__column">
-    {% block topright %}
-        <img src="../images/Group-people.png"/>
-    {% endblock topright %}
-</div>
-<div class="columns__column">
-    {% block bottomleft %}
-        <img src="../images/ontwerpen.png"/>
-    {% endblock bottomleft %}
-</div>
-<div class="columns__text">
-    {% block bottomright %}
-        <p class="text--bottom">
-            Naast het ontwerpen en ontwikkelen van websites, webshops en logo’s biedt Studio Boost ook andere diensten aan zoals zoekmachine-optimalisatie (SEO), webhosting en onderhoud. Ze begrijpen dat het hebben van een professionele online aanwezigheid van vitaal belang is voor bedrijven en bieden daarom complete oplossingen aan die zowel betaalbaar als effectief zijn. Of het nu gaat om een start-up of een gevestigd bedrijf, Studio Boost kan helpen bij het versterken van de online aanwezigheid en het vergroten van de zichtbaarheid op het internet.
-        </p>
-    {% endblock bottomright %}
-</div>
+{% endblock topleft %}
+
+{% block bottomright %}
+    <p class="text--bottom">
+        Naast het ontwerpen en ontwikkelen van websites, webshops en logo’s biedt Studio Boost ook andere diensten aan zoals zoekmachine-optimalisatie (SEO), webhosting en onderhoud. Ze begrijpen dat het hebben van een professionele online aanwezigheid van vitaal belang is voor bedrijven en bieden daarom complete oplossingen aan die zowel betaalbaar als effectief zijn. Of het nu gaat om een start-up of een gevestigd bedrijf, Studio Boost kan helpen bij het versterken van de online aanwezigheid en het vergroten van de zichtbaarheid op het internet.
+    </p>
+{% endblock bottomright %}
+
 
 {% block bottom%}
     <p>
