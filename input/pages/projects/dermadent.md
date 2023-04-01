@@ -4,7 +4,7 @@
     tags: projects
     description: "Voor Tandkliniek Dermadent heb ik een stijlvolle website ontworpen en ontwikkeld. Dankzij de animaties krijgt de bezoeker een gevoel van interactiviteit en wordt deze rondgeleid door de webpagina’s."
     image: dermadent.png
-    hero: dermadent-hero.png
+    hero: projects/dermadent-hero.png
     layout: full-width
 ---
 
