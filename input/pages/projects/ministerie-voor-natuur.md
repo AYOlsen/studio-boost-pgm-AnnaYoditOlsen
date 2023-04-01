@@ -5,7 +5,6 @@
     description: "VZW Het Ministerie voor Natuur heeft de ideeën om van tuinen, bedrijventerreinen en steden bondgenoten van de natuur te maken. En ze helpen die uitvoeren ook."
     image: ministerie-voor-natuur.png
     hero: projects/ministerie-voor-natuur-hero.png
-    layout: full-width
 ---
 
 Met een gloednieuw fris ontwerp van Jan Modaal hebben we de website ontwikkeld. Deze informatieve webshop kan volledig worden aangepast door de beheerder in een backend omgeving.

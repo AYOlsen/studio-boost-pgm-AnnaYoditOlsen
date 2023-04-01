@@ -5,7 +5,6 @@
     description: "Voor Spiers Slaapcomfort ontwierp en ontwikkelde ik een website en webshop in meerdere talen."
     image: slaapcomfort-spiers.png
     hero: projects/slaapcomfort-spiers-hero.png
-    layout: full-width
 ---
 
 De inhoud van de site, als ook de producten kunnen worden aangepast in een back-end door de verkoper.

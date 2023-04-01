@@ -5,7 +5,6 @@
     description: "Voor de festival-organisatie Ondervrienden ontwikkelde ik een website voor hun drie organisaties: Festival Onder Vrienden, Disco Onder Vrienden, Techno Onder Vrienden."
     image: onder-vrienden.png
     hero: projects/onder-vrienden-hero.png
-    layout: full-width
 ---
 Met een prachtig ontwerp door Bureau94 ging ik aan de slag.
 

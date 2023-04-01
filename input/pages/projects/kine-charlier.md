@@ -5,7 +5,6 @@
     description: "Kinesitherapie Céline Charlier is een algemene kinesitherapiepraktijk met een bijzondere interesse voor bekkenbodemproblematiek, lymfedrainage en perinatale begeleiding."
     image: kine-charlier.png
     hero: projects/kine-charlier-hero.png
-    layout: full-width
 ---
 Deze razendsnelle website hebben we niet enkel ontwikkeld maar ook ontworpen. Bij het sportieve karakter van deze kinesist hoort natuurlijk een fris en dynamisch ontwerp. De leuke animaties geven een informatieve website als deze een speelse toets zonder het **professionele karakter** te verliezen.
 
