@@ -7,7 +7,4 @@
     hero: projects/dental-dok-hero.png
     layout: full-width
 ---
-
-<h1>
-    {{ title }}
-</h1>
+![Dental dok app op gsm](../../images/projects/dental-dok-gsm.png)

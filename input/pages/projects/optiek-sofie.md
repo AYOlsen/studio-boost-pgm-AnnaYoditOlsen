@@ -7,6 +7,8 @@
     hero: projects/optiek-sofie-hero.png
     layout: full-width
 ---
-<h1>
-    {{ title }}
-</h1>
+![Optiek Sofie screenshot website](../../images/projects/optiek-sofie-screenshot1.png)
+
+![Optiek Sofie screenshot website](../../images/projects/optiek-sofie-screenshot2.png)
+
+![Optiek Sofie screenshot website](../../images/projects/optiek-sofie-screenshot3.png)

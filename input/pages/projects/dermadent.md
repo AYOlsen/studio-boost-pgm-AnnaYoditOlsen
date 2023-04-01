@@ -7,7 +7,16 @@
     hero: projects/dermadent-hero.png
     layout: full-width
 ---
+![Dermadent screenshot website](../../images/projects/dermadent-screenshot1.png)
 
-<h1>
-    {{ title }}
-</h1>
+De website is volledig aanpasbaar door de klant, zo zal deze zelf nieuwe elementen kunnen toevoegen, behandelingen kunnen aanmaken, teamleden updaten, … Dankzij dit beheersysteem hoeft Tandartspraktijk Dermadent mijn hulp niet in te roepen wanneer ze inhoud willen wijzigen of toevoegen.
+
+![Dermadent screenshot website](../../images/projects/dermadent-screenshot2.png)
+
+![Dermadent screenshot website](../../images/projects/dermadent-screenshot3.png)
+
+Naast de website heb ik Tandkliniek Dermadent ook voorzien van een nieuw logo en gepersonaliseerd drukwerk zoals postkaarten, afspraakkaartjes, visitiekaartjes, …
+
+![Dermadent businesskaart](../../images/projects/dermadent-businesskaart.png)
+
+![Dermadent evelop](../../images/projects/dermadent-envelop.png)

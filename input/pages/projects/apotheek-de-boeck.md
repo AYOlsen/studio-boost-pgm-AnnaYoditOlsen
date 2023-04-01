@@ -6,6 +6,13 @@
     image: apotheek-boeck.png
     hero: projects/apotheek-boeck-hero.png
     layout: full-width
-    iterator: second
 ---
-lkhlbkjbkbkb
+
+![Apotheek De Boeck screenshot](../../images/projects/apotheek-boeck-screenshot1.png)
+
+![Apotheek De Boeck screenshot](../../images/projects/apotheek-boeck-screenshot2.png)
+![Apotheek De Boeck screenshot](../../images/projects/apotheek-boeck-screenshot3.png)
+
+In een later stadium heb ik ook een website ontworpen en ontwikkeld. Deze strakke website kan de Apotheker volledig zelf aanpassen en elementen aan toevoegen.
+
+![Apotheek De Boeck screenshot](../../images/projects/apotheek-boeck-screenshot4.png)

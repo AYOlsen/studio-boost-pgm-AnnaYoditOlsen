@@ -7,6 +7,6 @@
     hero: projects/vosselare-hero.png
     layout: full-width
 ---
-<h1>
-    {{ title }}
-</h1>
+![Vosselare screenshot computer website](../../images/projects/vosselare-screenshot1.png)
+
+![Vosselare screenshot computer website](../../images/projects/vosselare-screenshot2.png)

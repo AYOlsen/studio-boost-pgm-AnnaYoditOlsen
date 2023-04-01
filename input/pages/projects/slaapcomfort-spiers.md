@@ -7,6 +7,13 @@
     hero: projects/slaapcomfort-spiers-hero.png
     layout: full-width
 ---
-<h1>
-    {{ title }}
-</h1>
+
+De inhoud van de site, als ook de producten kunnen worden aangepast in een back-end door de verkoper.
+
+![Slaapcomfort Spiers screenshot website](../../images/projects/slaapcomfort-spiers-screenshot1.png)
+
+> “Met meer dan 140 jaar ervaring waren we op zoek naar een website die onze waarden kon vertalen maar ook ons kon moderniseren. Studio Boost was hiervoor de ideale partner.
+
+![Slaapcomfort Spiers screenshot website](../../images/projects/slaapcomfort-spiers-screenshot2.png)
+
+![Slaapcomfort Spiers screenshot website](../../images/projects/slaapcomfort-spiers-screenshot3.png)
