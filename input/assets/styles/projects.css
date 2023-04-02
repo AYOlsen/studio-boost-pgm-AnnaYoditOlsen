@@ -17,12 +17,20 @@
     background: black;
     overflow: hidden;
 
-    & img {
+    & .hero-img, video {
         object-fit: cover;
         opacity: 0.5;
         width: 100vw;
     }
+
+    & .socials {
+        position: absolute;
+        bottom: 60px;
+        right: 50px;
+        width: 130px;
+    }
 }
+
 
 .hero-text {
     position: absolute;

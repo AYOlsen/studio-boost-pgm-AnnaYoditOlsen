@@ -1,13 +1,22 @@
 ---
-    title: 'Studio'
+    title: 'Wij zijn Studio Boost'
     nav: 'Home'
     tags: nav
     description: We zijn een digitaal branding agency en kunnen jouw bedrijf promoten dankzij branding, website design, web development en digital marketing.
-    hero: Video Hero_PosterImage.png
+    hero: video-hero.mp4
 ---
+{% import "../_comp/_block-hero.njk" as b %}
 
 {% extends "../_layout/base.njk" %}
 
+{% set mode = "light" %}
+
+{% block styles%}
+    <link rel="stylesheet" href="/styles/projects.css"/>
+{% endblock styles%}
+
 {% block main%}
-    
+    {% include "../_partials/_hero.njk" %}
+
+    {{ b.block(hero, description)}}
 {% endblock main%}

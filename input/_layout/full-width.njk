@@ -1,4 +1,3 @@
-{% import "../_comp/_hero.njk" as h %}
 {% extends "./base.njk" %}
 
 {% set mode = "light" %}
@@ -8,14 +7,7 @@
 {% endblock styles %}
 
 {% block main %}
-    {{ h.hero(title, category, description, hero)}}
-    <div class="socials">
-            {% for social in socials%}
-                <a >
-                    <img src="{{ social.img }}" />
-                </a>
-            {% endfor %}
-        </div>
+    {% include "../_partials/_hero.njk" %}
     <article class="projects-content">
         {{ content | safe }}
     </article>
