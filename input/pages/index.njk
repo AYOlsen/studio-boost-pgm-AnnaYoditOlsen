@@ -4,6 +4,7 @@
     tags: nav
     description: We zijn een digitaal branding agency en kunnen jouw bedrijf promoten dankzij branding, website design, web development en digital marketing.
     hero: video-hero.mp4
+    image: background.svg
 ---
 {% import "../_comp/_block-hero.njk" as b %}
 
@@ -13,10 +14,24 @@
 
 {% block styles%}
     <link rel="stylesheet" href="/styles/projects.css"/>
+    <link rel="stylesheet" href="/styles/blog.css"/>
 {% endblock styles%}
 
 {% block main%}
     {% include "../_partials/_hero.njk" %}
 
-    {{ b.block(hero, description)}}
+    <article class="hero-block hero-block--index">
+        {{ b.photo(image)}}
+        <div class="block_intro">
+        {{ b.text("Wie zijn we?", 'h1')}}
+        {{ b.text("Studio Boost is een creatief bureau dat gespecialiseerd is in het ontwerpen en ontwikkelen van websites, webshops en logo’s.")}}
+        {{ b.text("Het bureau heeft een passie voor het creëren van unieke en aantrekkelijke ontwerpen die passen bij de visie en missie van hun klanten. Ze werken nauw samen met hun klanten om ervoor te zorgen dat elk ontwerp volledig op maat gemaakt is en voldoet aan de behoeften van het bedrijf.")}}
+        {{ b.text("Het team van Studio Boost bestaat uit getalenteerde ontwerpers en ontwikkelaars die ervaring hebben met het werken met diverse industrieën.")}}
+        <div>
+            <p>
+                Over Studio Boost
+            </p>
+        </div>
+        </div>
+    </article>
 {% endblock main%}

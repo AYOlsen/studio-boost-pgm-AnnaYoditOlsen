@@ -26,3 +26,26 @@
         margin: 17px 0px 0px 10px;
     }
 }
+
+.hero-block {
+    display: flex;
+    background-color: hsl(216, 100%, 99%);
+    
+    & div {
+        width: 50%;
+        & img {
+            width: 100%;
+            
+        }
+    }
+
+    & .block_intro {
+        padding: 100px;
+        font-family: 'Work Sans Bold';
+        line-height: 2;
+        
+        & p {
+            margin: 25px 0px;
+        }
+    }
+}

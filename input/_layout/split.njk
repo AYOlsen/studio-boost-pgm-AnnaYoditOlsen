@@ -7,7 +7,12 @@
 
 {% block main %}
     {{ title }}
-    {{ b.block(image, description)}}
+    <article class="hero-block">
+        {{ b.photo(image)}}
+        <div class="block_intro">
+            {{ b.text(description)}}
+        </div>
+    </article>
     <article class="blog-content">
         {{ content | safe }}
     </article>

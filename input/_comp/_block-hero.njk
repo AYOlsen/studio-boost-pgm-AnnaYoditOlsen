@@ -1,10 +1,9 @@
-{% macro block(image, text)%}
-    <article>
-        <div>
-            <img src="../../images/{{ image }}"/>
-        </div>
-        <div>
-            <p>{{ text }}</p>
-        </div>
-    </article>
+{% macro photo(image)%}
+    <div class="block_img">
+        <img src="../../images/{{ image }}"/>
+    </div>
+{% endmacro %}
+
+{% macro text(text, tag='p')%}
+    <{{ tag }}>{{ text }}</{{ tag }}>
 {% endmacro %}

@@ -257,3 +257,7 @@ nav {
         font-family: 'Work Sans Light';
     }
 }
+
+.hero-block--index p {
+    font-family: 'Work Sans Regular';
+}
