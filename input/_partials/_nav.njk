@@ -5,7 +5,7 @@
         </a>
         <ul>
             {% for nav_item in collections.nav %}
-                <li>
+                <li class="li--{{ mode }}">
                     <a href="{{ nav_item.page.url }}" >
                         {% if nav_item.data.nav %}
                             {{ nav_item.data.nav }}

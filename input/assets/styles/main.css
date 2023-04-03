@@ -81,6 +81,11 @@ nav {
 
     & li {
         list-style: none;
+
+        &:last-child {
+            border: 1px hsla(0, 0%, 0%, 0.5) solid;
+            padding: 16px 32px;
+        }
     }
 
     & a {
@@ -91,12 +96,13 @@ nav {
     &.nav--light {
         color: white;
     }
+    
+    .li--light:last-child {
+        border: 1px hsla(0, 0%, 100%, 0.5) solid;
+        padding: 16px 32px;
+    }
 }
 
-.nav li:last-child {
-    border: 1px hsl(0, 0%, 100%, .5) solid;
-    padding: 16px 32px;
-}
 
 /* footer */
 
