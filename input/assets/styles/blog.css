@@ -79,3 +79,10 @@
         color: hsla(0, 0%, 47%, 0.8);
     }
 }
+
+.collage--detail {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}

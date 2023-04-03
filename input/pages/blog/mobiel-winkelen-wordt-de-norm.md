@@ -7,7 +7,7 @@
     image: mobiel-winkelen.png
 ---
 
-Lap, smartphone thuis vergeten! Een nachtmerrie voor zowat iedereen nu onze smartphones aanwezig zijn in zoveel aspecten van onze dag. Je alarm, muziekspeler, socialemediakanaal, digitale encyclopedie. Allen worden ze zowat dagelijks gebruikt, en blijkbaar kan je er zelfs nog mee bellen ook. De Vlaamse overheid gaf aan in het rapport rond mediabezit dat 82% van de volwassenen in Vlaanderen een smartphone had. Bij 18- tot 49-jarigen was dat zelfs 97%. Dat zijn heel wat smartphones, niet?
+Lap, smartphone thuis vergeten! Een nachtmerrie voor zowat iedereen nu onze smartphones aanwezig zijn in zoveel aspecten van onze dag. Je alarm, muziekspeler, socialemediakanaal, digitale encyclopedie. Allen worden ze zowat dagelijks gebruikt, en blijkbaar kan je er zelfs nog mee bellen ook. De Vlaamse overheid gaf aan in het <u>rapport rond mediabezit</u> dat 82% van de volwassenen in Vlaanderen een smartphone had. Bij 18- tot 49-jarigen was dat zelfs 97%. Dat zijn heel wat smartphones, niet?
 
 ![Grafiek mediabezit in België](../../images/mediabezit-grafiek.png)
 
@@ -15,7 +15,7 @@ Omdat smartphones zo’n groot deel van onze routine zijn geworden, is het een n
 
 
 ## M-commerce: wat is het en hoe doe je dat?
-M-commerce of mobiele e-commerce slaat op iedere commerciële transactie die via apps of mobiele websites plaatsvindt. Alle m-commerce is dus e-commerce maar het omgekeerde geldt niet. Als je weet dat 93% van de Belgen in 2021 hun smartphone dagelijks gebruikten en daar dan gemiddeld 188 minuten mee bezig waren, snap je dat een smartphone een machtige tool kan zijn. Het is dus belangrijker dan ooit om alle uitingen van je bedrijf zo toegankelijk mogelijk te maken voor mobiele gebruikers. Maar hoe speel je nu best in op deze m-commerce?
+M-commerce of mobiele e-commerce slaat op iedere commerciële transactie die via apps of mobiele websites plaatsvindt. Alle m-commerce is dus e-commerce maar het omgekeerde geldt niet. Als je weet dat <u>93% van de Belgen in 2021 hun smartphone dagelijks gebruikten</u> en daar dan gemiddeld 188 minuten mee bezig waren, snap je dat een smartphone een machtige tool kan zijn. Het is dus belangrijker dan ooit om alle uitingen van je bedrijf zo toegankelijk mogelijk te maken voor mobiele gebruikers. Maar hoe speel je nu best in op deze m-commerce?
 
 ## Lay-out van je website
 De lay-out van je website moet zeker ook geschikt zijn voor mobiel gebruik: het zogenaamde responsive design. Het zou zelfs nog beter zijn wanneer je vanuit een mobile-first perspectief begint waarbij gebruiksvriendelijkheid van je mobiele site het voortouw neemt. Dat geldt natuurlijk ook voor webshops, waarvan bijna 80% van alle 25- tot 44-jarigen gebruik maakt. Ook Google beloont mobielvriendelijke sites met een hogere plek in de SERPs. Oude klanten, nieuwe klanten, en nieuwsgierige bezoekers nemen sneller een kijkje op de website als je bovenaan staat tussen de zoekresultaten.

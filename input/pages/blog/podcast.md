@@ -14,7 +14,7 @@ Als bedrijf denk je niet meteen dat je merk geschikt kan zijn voor een podcast, 
 Belangrijk is wel dat je het produceren van je podcast ook koppelt aan je marketingstrategie. Als er geen leads, aanvragen of verkopen volgen, hoef je niet te overinvesteren. Daarnaast kan het nuttig zijn om je inspanningen aan te vullen met e-mails, advertising en andere kanalen. Zo maak je het deel van een groter marketing geheel.
 
  ## Waarom starten met een podcast?
- Een podcast uit de grond stampen is hard werken, maar een geweldige manier om op grote schaal betrokkenheid te creëren bij een vooropgesteld doelpubliek. 18% van de Vlaamse internetgebruikers luistert minstens 1 keer in de maand naar een podcast, de helft daarvan doet dat zelfs **wekelijks**. Het aantal dat tot op vandaag blijft toenemen.
+ Een podcast uit de grond stampen is hard werken, maar een geweldige manier om op grote schaal betrokkenheid te creëren bij een vooropgesteld doelpubliek. 18% van de Vlaamse internetgebruikers luistert minstens <u>1 keer in de maand naar een podcast</u>, de helft daarvan doet dat zelfs **wekelijks**. Het aantal dat tot op vandaag blijft toenemen.
 
 Waar een radioboodschap stopt na enkele (tientallen) seconden, heb je in podcasts de tijd om uitgebreid in te gaan op het verhaal van je product met alle voordelen, toepassingen, testimonials en nog veel meer. Dit maakt hen meteen ook veel boeiender, duidelijker en toegankelijker dan de meeste andere content. Door experts, medewerkers of klanten uit te nodigen zorg je meteen ook voor een zekere intimiteit en geloofwaardigheid ten opzichte van je luisteraars. Zo word je meer dan een advertentie, maar een stem.
 

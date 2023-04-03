@@ -1,0 +1,5 @@
+{% macro photo(category, title, image) %}
+    <p class="card_category">{{ category }}</p>
+    <p class="card_title">{{ title }}</p>
+    <img src="../../images/{{ image }}" />
+{% endmacro %}

@@ -7,7 +7,7 @@
     hero: projects/ministerie-voor-natuur-hero.png
 ---
 
-Met een gloednieuw fris ontwerp van Jan Modaal hebben we de website ontwikkeld. Deze informatieve webshop kan volledig worden aangepast door de beheerder in een backend omgeving.
+Met een gloednieuw fris ontwerp van <u>Jan Modaal</u> hebben we de website ontwikkeld. Deze informatieve webshop kan volledig worden aangepast door de beheerder in een backend omgeving.
 
 ![Het Ministerie voor Natuur screenshot](../../images/projects/ministerie-screenshot1.png)
 

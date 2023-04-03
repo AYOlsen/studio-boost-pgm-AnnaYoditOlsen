@@ -19,4 +19,15 @@
     <article class="blog-content">
         {{ content | safe }}
     </article>
+        <article class="collage--detail">
+            {% for item in collections.blog %}
+                    {% if item.data.category == category and item.url != page.url %}
+                        <div class="card">
+                            <a href="{{ item.page.url }}">
+                            {% include "../_partials/_blogphoto.njk" %}
+                            </a>
+                        </div>
+                    {% endif %}
+            {% endfor %}
+        </article>
 {% endblock main %}
