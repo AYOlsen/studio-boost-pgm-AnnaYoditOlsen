@@ -2,7 +2,7 @@
     position: relative;
 }
 
-.card_title {
+.title--blog {
     width: 450px;
     position: absolute;
     background-color: hsla(0, 0%, 0%, 0.745);
@@ -30,7 +30,6 @@
 .hero-block {
     display: flex;
     background-color: hsl(216, 100%, 99%);
-    
     & div {
         width: 50%;
         & img {

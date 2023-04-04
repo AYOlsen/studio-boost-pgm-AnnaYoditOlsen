@@ -52,12 +52,18 @@ header {
     z-index: 1;
 }
 
+.header--relative {
+    position: relative;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Sitka Display';
+    font-weight: 100;
 }
 
 a { 
     color: black;
+    text-decoration: none;
 }
 
 /* nav */
@@ -89,7 +95,6 @@ nav {
     }
 
     & a {
-        text-decoration: none;
         color: inherit;
     }
 
@@ -270,4 +275,90 @@ nav {
 
 .hero-block--index p {
     font-family: 'Work Sans Regular';
+}
+
+.link-over {
+    border: 1px black solid;
+    padding: 10px;
+}
+
+.index-project{
+    margin: 100px auto;
+
+    & h2 {
+        font-size: 35px;
+    }
+
+    .index--card {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.link-project {
+    float: right;
+    margin-top: 55px;
+    font-family: 'Work Sans Bold';
+    & a {
+        text-decoration: none;
+    }
+}
+
+.index_intro {
+    width: 530px;
+    margin: 30px 0px;
+}
+
+.article-blog {
+    margin: 150px auto;
+}
+
+.news_intro {
+    margin: 50px auto;
+    width: 580px;
+    text-align: center;
+}
+
+.news-content {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+
+    & div:first-child {
+        width: 45%;
+
+        & p, img {
+            width: 100%;
+        }
+    }
+}
+
+.index-blog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    width: 50%;
+
+    & .card {
+        width: 316px;
+
+        & p {
+            font-size: 14px;
+            width: 100%;
+        }
+    }
+}
+
+.article-clients {
+    background-color: hsl(216, 100%, 99%);
+}
+
+.client_content {
+    padding: 100px 0px;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
 }
