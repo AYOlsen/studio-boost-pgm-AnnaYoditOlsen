@@ -46,16 +46,6 @@ body {
     margin: 0 auto;
 }
 
-header {
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-}
-
-.header--relative {
-    position: relative;
-}
-
 h1, h2, h3, h4, h5 {
     font-family: 'Sitka Display';
     font-weight: 100;
@@ -66,25 +56,39 @@ a {
     text-decoration: none;
 }
 
-/* nav */
-nav {
-    font-family: 'Work Sans Light';
+/* header */
+
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
 }
 
+.header--relative {
+    position: relative;
+}
+
+.logo {
+    font-family: 'Sitka Display';
+    font-size: 2.18rem;
+    margin-bottom: 32px;
+}
+
+/* nav */
+
 .nav {
+    font-family: 'Work Sans Light';
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 40px;
     z-index: 1;
     padding-top: 56px;
-
     & ul {
         display: flex;
         align-items: center;
         gap: 40px;
     }
-
     & li {
         list-style: none;
 
@@ -93,16 +97,13 @@ nav {
             padding: 16px 32px;
         }
     }
-
-    & a {
+    & .nav__link {
         color: inherit;
     }
-
     &.nav--light {
         color: white;
     }
-    
-    .li--light:last-child {
+    .border--light:last-child {
         border: 1px hsla(0, 0%, 100%, 0.5) solid;
         padding: 16px 32px;
     }
@@ -122,31 +123,21 @@ nav {
 
 /* footer top */
 
-.footer--top {
+.footer-top {
     display: flex;
     justify-content: space-between;
     padding-top: 110px;
     margin-bottom: 78px;
-}
-
-.footer--top div {
-    max-width: 536px;
-    & p {
-        margin-bottom: 20px;
+    & .footer_tekst {
+        max-width: 536px;
+        & p {
+            margin-bottom: 20px;
+            font-family: 'Work Sans Light';
+            opacity: 1;
+        }
     }
 }
 
-.logo {
-    font-family: 'Sitka Display';
-    font-size: 2.18rem;
-    margin-bottom: 32px;
-}
-
-.footer--top p {
-    font-family: 'Work Sans Light';
-    opacity: 1;
-
-}
 
 /* footer socials */
 
@@ -164,7 +155,7 @@ nav {
 
 /* footer nav */
 
-.nav-footer li {
+.footer_nav li {
     list-style: none;
     margin-bottom: 25px;
     & a {
@@ -180,7 +171,6 @@ nav {
     justify-content: space-between;
     padding-bottom: 40px;
     font-family: 'Work Sans Light';
-
     & div {
         display: flex;
         gap: 30px
@@ -188,23 +178,23 @@ nav {
 }
 
 /* algemeen projects en blog */
+
 .banner {
     background-color: black;
     color: white;
     padding-top: 209px;
 }
 
-.banner-content {
+.banner_content {
     max-width: 1198px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding-bottom: 120px;
-    & h1 {
+    & .banner_title {
         font-size: 50px;
     }
-
-    & p {
+    & .banner_text {
         max-width: 673px;
         font-size: 24px;
     }
@@ -220,19 +210,22 @@ nav {
 }
 
 /* contact pagina */
+
 .columns-top, .columns-bottom {
     display: flex;
-}
-
-.columns__column {
-    width: 50%;
-}
-
-.columns-top {
     align-items: center;
 }
 
+.columns__img {
+    width: 50%;
+    & img {
+        width: 100%;
+    height: 755px;
+    }
+}
+
 .columns-top .columns__text {
+    
     padding-left: 60px;
     padding-right: 20px;
 }
@@ -241,30 +234,20 @@ nav {
     background-color: hsl(216, 100%, 99%);
 }
 
-.columns-top img {
-    width: 100%;
-    height: 941px;
-}
-
-.columns-bottom  img {
-    width: 100%;
-    height: 755px;
-}
-
 .columns__text {
     width: 50%;
     & h1 {
-        font-size: 60px;
+        font-size: 50px;
         font-weight: 100;
     }
 }
 
-.text--bottom {
+.bottom__text {
     padding: 183px 178px  183px 146px;
     font-family: 'Work Sans Light';
 }
 
-.columns__centered {
+.column-centered {
     width: 812px;
     margin: 0 auto;
     padding: 100px 0px;
@@ -273,7 +256,9 @@ nav {
     }
 }
 
-.hero-block--index p {
+/* hero */
+
+.block--index p {
     font-family: 'Work Sans Regular';
 }
 
@@ -282,14 +267,12 @@ nav {
     padding: 10px;
 }
 
-.index-project{
+.collage--index {
     margin: 100px auto;
-
     & h2 {
         font-size: 35px;
     }
-
-    .index--card {
+    .card--index {
         display: flex;
         justify-content: space-between;
     }
@@ -304,16 +287,18 @@ nav {
     }
 }
 
-.index_intro {
+.collage__intro{
     width: 530px;
     margin: 30px 0px;
 }
 
-.article-blog {
+/* blog index */ 
+
+.article-news {
     margin: 150px auto;
 }
 
-.news_intro {
+.news__intro {
     margin: 50px auto;
     width: 580px;
     text-align: center;
@@ -323,25 +308,21 @@ nav {
     display: flex;
     gap: 6px;
     justify-content: center;
-
     & div:first-child {
         width: 45%;
-
         & p, img {
             width: 100%;
         }
     }
 }
 
-.index-blog {
+.blog--index {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
     width: 50%;
-
     & .card {
         width: 316px;
-
         & p {
             font-size: 14px;
             width: 100%;
@@ -351,14 +332,12 @@ nav {
 
 .article-clients {
     background-color: hsl(216, 100%, 99%);
-}
-
-.client_content {
-    padding: 100px 0px;
-}
-
-.clients {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 70px;
+    & .client_content {
+        padding: 100px 0px;
+        & .clients {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 70px;
+        }
+    }
 }

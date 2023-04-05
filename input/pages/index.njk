@@ -20,16 +20,16 @@
 {% block main%}
     {% include "../_partials/_hero.njk" %}
 
-    <article class="max-width index-project">
+    <article class="max-width collage--index">
         <h2>Ons meest recente werk</h2>
-        <p class="index_intro">
+        <p class="collage__intro">
             Van webshop tot een interactieve applicatie. Bij Studio Boost is ‘the sky the limit’. Wij realiseren jullie droomproject en plaatsen je bedrijf in een nieuw jasje.
         </p>
-        <div class="index--card">
+        <div class="card--index">
             {% for item in collections.projects | sliceFilter(0, 3) %}
                 <div class="card">
                     <a href="{{ item.page.url }}">
-                        <p class="card_title">{{ item.data.category }} - {{ item.data.title }}</p>
+                        <p class="card__title">{{ item.data.category }} - {{ item.data.title }}</p>
                         <img src="/images/projects/{{ item.data.image }}" />
                     </a>
                 </div>
@@ -40,9 +40,9 @@
         </div>
     </article>
 
-    <article class="hero-block hero-block--index">
+    <article class="hero-block block--index">
         {{ b.photo(image)}}
-        <div class="block_intro">
+        <div class="block__intro">
             {{ b.text("Wie zijn we?", 'h1')}}
             {{ b.text("Studio Boost is een creatief bureau dat gespecialiseerd is in het ontwerpen en ontwikkelen van websites, webshops en logo’s.")}}
             {{ b.text("Het bureau heeft een passie voor het creëren van unieke en aantrekkelijke ontwerpen die passen bij de visie en missie van hun klanten. Ze werken nauw samen met hun klanten om ervoor te zorgen dat elk ontwerp volledig op maat gemaakt is en voldoet aan de behoeften van het bedrijf.")}}
@@ -52,8 +52,8 @@
             </div>
         </div>
     </article>
-    <article class="article-blog max-width">
-        <div class="news_intro">
+    <article class="article-news max-width">
+        <div class="news__intro">
             <h2>Nieuws</h2>
             <p>
                 Blijf op de hoogte met de laatste nieuwtjes of leer bij met onze interessante blog-artikels.
@@ -68,7 +68,7 @@
                     </a>
                 </div>
             {% endfor %}
-            <div class="index-blog">
+            <div class="blog--index">
                 {% for item in collections.blog | sliceFilter(1, 5) %}
                     <div class="card">
                         <a href="{{ item.page.url }}">

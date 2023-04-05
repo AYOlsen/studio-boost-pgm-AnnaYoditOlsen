@@ -12,7 +12,7 @@
                 {% if collections[iterator] == collections.blog %}
                     {% include "../_partials/_blogphoto.njk" %}
                     {% else %}
-                    <p class="card_title">{{ item.data.category }} - {{ item.data.title }}</p>
+                    <p class="card__title">{{ item.data.category }} - {{ item.data.title }}</p>
                     <img src="../images/{{ [iterator] }}/{{ item.data.image }}" />
                 {% endif %}
                 </a>

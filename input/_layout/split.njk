@@ -6,13 +6,13 @@
 {% endblock styles %}
 
 {% block main %}
-    <div class="blog_title">
+    <div class="blog__title">
         <h1>{{ title }}</h1>
         <p>{{ data }}</p>
     </div>
     <article class="hero-block">
         {{ b.photo(image)}}
-        <div class="block_intro">
+        <div class="block__intro">
             {{ b.text(description)}}
         </div>
     </article>

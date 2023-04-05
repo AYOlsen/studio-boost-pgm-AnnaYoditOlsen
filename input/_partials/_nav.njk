@@ -1,12 +1,12 @@
 <header class="header--{{ relative }}">
     <nav class="nav nav--{{ mode }} ">
-        <a href="{{ '/' | url }}" class="logo">
+        <a href="{{ '/' | url }}" class="logo nav__link">
             Studio Boost
         </a>
         <ul>
             {% for nav_item in collections.nav %}
-                <li class="li--{{ mode }}">
-                    <a href="{{ nav_item.page.url }}" >
+                <li class="border--{{ mode }}">
+                    <a class="nav__link" href="{{ nav_item.page.url }}" >
                         {% if nav_item.data.nav %}
                             {{ nav_item.data.nav }}
                         {% else %}

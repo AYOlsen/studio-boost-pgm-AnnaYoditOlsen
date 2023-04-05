@@ -1,32 +1,34 @@
 {% extends "./base.njk" %}
 
 {% block main%}
-    <div class="columns-top">
-        <div class="columns__text">
-            {% block topleft %}
-            {% endblock topleft %}
+    <article class="grid">
+        <div class="columns-top">
+            <div class="columns__text">
+                {% block topleft %}
+                {% endblock topleft %}
+            </div>
+            <div class="columns__img">
+                {% block topright %}
+                    <img src="../images/{{ image[0] }}"/>
+                {% endblock topright %}
+            </div>
         </div>
-        <div class="columns__column">
-            {% block topright %}
-                <img src="../images/{{ image[0] }}"/>
-            {% endblock topright %}
+            
+        <div class="columns-bottom">
+            <div class="columns__img">
+                {% block bottomleft %}
+                    <img src="../images/{{ image[1] }}"/>
+                {% endblock bottomleft %}
+            </div>
+            <div class="columns__text">
+                {% block bottomright %}
+                {% endblock bottomright %}
+            </div>
         </div>
-    </div>
         
-    <div class="columns-bottom">
-        <div class="columns__column">
-            {% block bottomleft %}
-                <img src="../images/{{ image[1] }}"/>
-            {% endblock bottomleft %}
+        <div class="column-centered">
+            {% block bottom%}
+            {% endblock bottom%}
         </div>
-        <div class="columns__text">
-            {% block bottomright %}
-            {% endblock bottomright %}
-        </div>
-    </div>
-    
-    <div class="columns__centered">
-        {% block bottom%}
-        {% endblock bottom%}
-    </div>
+    </article>
 {% endblock main%}

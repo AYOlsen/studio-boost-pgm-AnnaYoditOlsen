@@ -1,8 +1,5 @@
-.card_link {
-    text-decoration: none;
-}
 
-.card_title {
+.card__title {
     font-size: .875rem;
     color: hsl(0, 0%, 44%);
     text-transform: uppercase;
@@ -14,15 +11,13 @@
 
 .hero {
     position: relative;
-    background: black;
+    background: hsl(0, 0%, 0%);
     overflow: hidden;
-
-    & .hero-img, video {
+    & .hero__img, video {
         object-fit: cover;
         opacity: 0.5;
         width: 100vw;
     }
-
     & .socials {
         position: absolute;
         bottom: 60px;
@@ -31,19 +26,16 @@
     }
 }
 
-
-.hero-text {
+.hero__text {
     position: absolute;
     bottom: 140px;
     left: 204px;
     color: rgb(255, 255, 255);
     width: 700px;
-
     & h1 {
         font-size: 60px;
         font-weight: 100;
     }
-
     & p {
         font-size: 24px;
         &:first-child {
@@ -55,11 +47,9 @@
 .projects-content {
     max-width: 812px;
     margin: 100px auto;
-
     & p {
         margin: 50px 0;
     }
-
     & blockquote {
         font-size: 44px;
         color: hsla(27, 100%, 7%, 0.745);

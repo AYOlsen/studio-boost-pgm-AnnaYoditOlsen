@@ -1,14 +1,14 @@
 <article class="hero">
     {% if page.url.includes("/projects/") %}
-        <div class="hero-img">
+        <div class="hero__img">
             <img src="../../images/{{ hero }}"/>
         </div>
     {% else %}
-        <video autoplay muted loop id="myVideo">
+        <video autoplay muted loop>
             <source src="../images/{{ hero }}" type="video/mp4">
         </video>
     {% endif %}
-    <div class="hero-text">
+    <div class="hero__text">
         <p>{{ category }}</p>
         <h1>{{ title }}</h1>
         <p>{{ description }}</p>
