@@ -1,11 +1,11 @@
 .title--blog {
-    width: 450px;
+    width: 28.12rem;
     position: absolute;
     background-color: hsla(0, 0%, 0%, 0.745);
-    color: white;
+    color: hsl(0, 0%, 100%);
     font-family: 'Work Sans Bold';
-    padding: 20px;
-    bottom: 0px;
+    padding: 1.25rem;
+    bottom: 0rem;
 }
 
 .card {
@@ -16,13 +16,13 @@
     color: hsl(0, 0%, 0%);
     text-decoration: none;
     & .card__category {
-        font-size: .875rem;
+        font-size: .87rem;
         color: hsl(0, 0%, 44%);
         text-transform: uppercase;
         background-color: hsl(216, 100%, 99%);
-        padding: 16px;
+        padding: 1rem;
         position: absolute;
-        margin: 17px 0px 0px 10px;
+        margin: 1.0625rem 0rem 0rem .62rem;
     }
 }
 
@@ -37,32 +37,32 @@
     }
 
     & .block__intro {
-        padding: 100px;
+        padding: 6.25rem;
         font-family: 'Work Sans Bold';
         line-height: 2;
         & p {
-            margin: 25px 0px;
+            margin: 1.56rem 0rem;
         }
     }
 }
 
 .blog-content {
-    margin: 100px auto;
-    max-width: 812px;
+    margin: 6.25rem auto;
+    max-width: 50.75rem;
     & h2 {
         font-weight: 100;
     }
     & p {
-        margin: 30px 0px;
+        margin: 1.87rem 0rem;
     }
 }
 
 .blog__title {
-    padding-top: 250px;
-    margin-bottom: 50px;
-    margin-left: 100px;
+    padding-top: 15.62rem;
+    margin-bottom: 3.12rem;
+    margin-left: 6.25rem;
     & h1 {
-        font-size: 60px;
+        font-size: 3.75rem;
         font-weight: 100;
     }
     & p {
@@ -74,6 +74,6 @@
 .collage--detail {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-bottom: 100px;
+    gap: .62rem;
+    margin-bottom: 6.25rem;
 }

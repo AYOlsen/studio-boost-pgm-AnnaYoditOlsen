@@ -38,11 +38,11 @@
 
 body {
     font-family: 'Work Sans Regular';
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .max-width {
-    max-width: 1400px;
+    max-width: 87.5rem;
     margin: 0 auto;
 }
 
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5 {
 }
 
 a { 
-    color: black;
+    color: hsl(0, 0%, 0%);
     text-decoration: none;
 }
 
@@ -71,7 +71,7 @@ header {
 .logo {
     font-family: 'Sitka Display';
     font-size: 2.18rem;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 /* nav */
@@ -81,31 +81,30 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 40px;
+    margin: 0rem 2.5rem;
     z-index: 1;
-    padding-top: 56px;
+    padding-top: 3.5rem;
     & ul {
         display: flex;
         align-items: center;
-        gap: 40px;
+        gap: 2.5rem;
     }
     & li {
         list-style: none;
-
         &:last-child {
             border: 1px hsla(0, 0%, 0%, 0.5) solid;
-            padding: 16px 32px;
+            padding: 16px 2rem;
         }
     }
     & .nav__link {
         color: inherit;
     }
     &.nav--light {
-        color: white;
+        color: hsl(0, 0%, 100%);
     }
     .border--light:last-child {
-        border: 1px hsla(0, 0%, 100%, 0.5) solid;
-        padding: 16px 32px;
+        border: .06rem hsla(0, 0%, 100%, 0.5) solid;
+        padding: 1rem 2rem;
     }
 }
 
@@ -113,11 +112,11 @@ header {
 /* footer */
 
 .footer {
-    background-color: black;
-    color: white;
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
     font-size: 20px;
     & a {
-        color: white;
+        color: hsl(0, 0%, 100%);
     }
 }
 
@@ -126,12 +125,12 @@ header {
 .footer-top {
     display: flex;
     justify-content: space-between;
-    padding-top: 110px;
-    margin-bottom: 78px;
-    & .footer_tekst {
-        max-width: 536px;
+    padding-top: 6.87rem;
+    margin-bottom: 4.87rem;
+    & .footer__text {
+        max-width: 33.5rem;
         & p {
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
             font-family: 'Work Sans Light';
             opacity: 1;
         }
@@ -142,22 +141,22 @@ header {
 /* footer socials */
 
 .socials {
-    max-width: 8.3125rem;
+    max-width: 8.31rem;
     display: flex;
     justify-content: space-between;
 }
 
 .line {
-    padding: 1px;
-    background-color: white;
-    margin: 62px 0px 35px 0px;
+    padding: .06rem;
+    background-color: hsl(0, 0%, 100%);
+    margin: 3.87rem 0rem 2.1875rem 0rem;
 }
 
 /* footer nav */
 
 .footer_nav li {
     list-style: none;
-    margin-bottom: 25px;
+    margin-bottom: 1.56rem;
     & a {
         text-decoration: none;
     }
@@ -166,37 +165,37 @@ header {
 /* footer bottom */
 
 .footer-bottom {
-    color: #ffffffad;
+    color: hsla(0, 0%, 100%, 0.678);
     display: flex;
     justify-content: space-between;
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
     font-family: 'Work Sans Light';
     & div {
         display: flex;
-        gap: 30px
+        gap: 1.87rem
     }
 }
 
 /* algemeen projects en blog */
 
 .banner {
-    background-color: black;
-    color: white;
-    padding-top: 209px;
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    padding-top: 13.06rem;
 }
 
 .banner_content {
-    max-width: 1198px;
+    max-width: 74.87rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 120px;
+    padding-bottom: 7.5rem;
     & .banner_title {
-        font-size: 50px;
+        font-size: 3.12rem;
     }
     & .banner_text {
-        max-width: 673px;
-        font-size: 24px;
+        max-width: 42.06rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -204,15 +203,18 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 6px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    gap: .375rem;
+    margin-top: 9.375rem;
+    margin-bottom: 9.375rem;
 }
 
 /* contact pagina */
 
 .columns-top, .columns-bottom {
     display: flex;
+}
+
+.columns-top {
     align-items: center;
 }
 
@@ -220,14 +222,13 @@ header {
     width: 50%;
     & img {
         width: 100%;
-    height: 755px;
+    height: 47.18rem;
     }
 }
 
 .columns-top .columns__text {
-    
-    padding-left: 60px;
-    padding-right: 20px;
+    padding-left: 3.75rem;
+    padding-right: 1.25rem;
 }
 
 .columns-bottom .columns__text {
@@ -237,20 +238,19 @@ header {
 .columns__text {
     width: 50%;
     & h1 {
-        font-size: 50px;
-        font-weight: 100;
+        font-size: 3.75rem;
     }
 }
 
 .bottom__text {
-    padding: 183px 178px  183px 146px;
+    padding: 11.43rem 11.12rem  11.43rem 9.12rem;
     font-family: 'Work Sans Light';
 }
 
 .column-centered {
-    width: 812px;
+    width: 50.75rem;
     margin: 0 auto;
-    padding: 100px 0px;
+    padding: 6.25rem 0rem;
     & p {
         font-family: 'Work Sans Light';
     }
@@ -263,14 +263,14 @@ header {
 }
 
 .link-over {
-    border: 1px black solid;
-    padding: 10px;
+    border: .06rem hsl(0, 0%, 0%) solid;
+    padding: .62rem;
 }
 
 .collage--index {
-    margin: 100px auto;
+    margin: 6.25rem auto;
     & h2 {
-        font-size: 35px;
+        font-size: 2.18rem;
     }
     .card--index {
         display: flex;
@@ -280,7 +280,7 @@ header {
 
 .link-project {
     float: right;
-    margin-top: 55px;
+    margin-top: 3.43rem;
     font-family: 'Work Sans Bold';
     & a {
         text-decoration: none;
@@ -288,25 +288,25 @@ header {
 }
 
 .collage__intro{
-    width: 530px;
-    margin: 30px 0px;
+    width: 33.12rem;
+    margin: 1.87rem 0rem;
 }
 
 /* blog index */ 
 
 .article-news {
-    margin: 150px auto;
+    margin: 9.375rem auto;
 }
 
 .news__intro {
-    margin: 50px auto;
-    width: 580px;
+    margin: 3.12rem auto;
+    width: 36.25rem;
     text-align: center;
 }
 
 .news-content {
     display: flex;
-    gap: 6px;
+    gap: .37rem;
     justify-content: center;
     & div:first-child {
         width: 45%;
@@ -319,12 +319,12 @@ header {
 .blog--index {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: .37rem;
     width: 50%;
     & .card {
-        width: 316px;
+        width: 19.75rem;
         & p {
-            font-size: 14px;
+            font-size: .87rem;
             width: 100%;
         }
     }
@@ -333,11 +333,11 @@ header {
 .article-clients {
     background-color: hsl(216, 100%, 99%);
     & .client_content {
-        padding: 100px 0px;
+        padding: 6.25rem 0rem;
         & .clients {
             display: flex;
             justify-content: space-between;
-            margin-top: 70px;
+            margin-top: 4.37rem;
         }
     }
 }
